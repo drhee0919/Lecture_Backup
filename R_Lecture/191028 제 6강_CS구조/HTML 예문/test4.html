@@ -1,0 +1,36 @@
+<!DOCTYPE html> <!--:hover 기능과 유사한 웹페이지 출력 : 마우스 올리면 변하는 택스트  -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script
+            src="http://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+    <script src = "js/test4.js"></script>
+    <style>
+        .enter {
+            font-size : 20pt;
+        background-color : yellow;
+            color :red;
+        } <!-- class가 enter인 내용들은 다음의 스타일들을 따름  -->
+        .normal{
+            font-size: 10pt;
+            background-color: white;
+            color: black;
+        } <!-- class가 normal인 내용들은 다음의 스타일들을 따름  -->
+    </style>
+</head>
+<body>
+    <ul>
+        <li onmouseover="overFunc()"
+            onmouseleave="leaveFunc()">홍길동</li>   <!--마우스가 올려져 있으면, 아니면   -->
+        <li onmouseover="overFunc()"
+            onmouseleave="leaveFunc()">김길동</li>
+        <li onmouseover="overFunc()"
+            onmouseleave="leaveFunc()">이순신</li>
+        <li onmouseover="overFunc()"
+            onmouseleave="leaveFunc()">신사임당</li>
+    </ul>
+</body>
+</html>
