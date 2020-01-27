@@ -24,5 +24,5 @@ elif B==C and B<A:
     print(B)
 elif C==A and C<B:
     print(C)
-else:
+else: # A==B==C
     print(A)
