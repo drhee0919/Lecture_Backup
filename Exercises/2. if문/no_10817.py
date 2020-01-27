@@ -1,7 +1,8 @@
 A, B, C = map(int, input().split())
+
 if A>B and C>A:
     print(A)
-elif C>A and B>A:
+elif A>C and B>A:
     print(A)
 elif B>C and A>B:
     print(B)
