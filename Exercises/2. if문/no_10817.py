@@ -18,5 +18,11 @@ elif B==C and B>A:
     print(B)
 elif C==A and C>B:
     print(C)
+elif A==B and A<C:
+    print(A)
+elif B==C and B<A:
+    print(B)
+elif C==A and C<B:
+    print(C)
 else:
     print(A)
